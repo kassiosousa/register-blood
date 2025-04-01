@@ -11,5 +11,5 @@ app.use(bodyParser.json());
 app.use('/api', bloodRoutes);
 
 app.listen(PORT, () => {
-    console.log(`🚀 Backend rodando em http://localhost:${PORT}`);
+    console.log(`🚀 Backend running in http://localhost:${PORT}`);
 });
